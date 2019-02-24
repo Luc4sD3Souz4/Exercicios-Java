@@ -1,8 +1,8 @@
 
 public class Retangulo {
 	
-	private Float comprimento = 1.0f;
-	private Float largura 	  = 1.0f;
+	private Float comprimento;
+	private Float largura;
 	
 	Valida val = new Valida();
 	
@@ -23,7 +23,9 @@ public class Retangulo {
 	}	
 	
 	public void Calculo() {
-		System.out.println( " ¡rea: " + getLargura() * getComprimento() );
-		System.out.println( " PerÌ≠metro: " + ( getLargura() + getLargura() ) + ( getComprimento() + getComprimento() )   );
+		Float area = getLargura() * getComprimento();
+		Float perimetro = (2 * getLargura()) + (2 * getComprimento());
+		System.out.println( " √Årea: " + area );
+		System.out.println( " Per√≠metro: " + perimetro );
 	}
 }
