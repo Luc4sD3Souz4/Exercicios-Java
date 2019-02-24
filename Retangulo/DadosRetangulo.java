@@ -7,7 +7,7 @@ public class DadosRetangulo {
 		
 		Retangulo retangulo = new Retangulo();
 		retangulo.setComprimento( comprimento );
-		retangulo.setComprimento( largura );
+		retangulo.setLargura( largura );
 		
 		retangulo.Calculo();
 
